@@ -104,15 +104,6 @@ class BowlingGame:
             totalSpares=self.pinsKnocked.count('/')
             return (score, totalStrikes,totalSpares, frame)
         return self.recursiveScore(numPins=numPins, frame=frame+1, score=score)
-        
-                
-        
-
+ 
     def displayFinalScore(self):        
         return self.recursiveScore(numPins=self.pinsKnockedArray(),frame=1,score=0 )
-
-
-
-
-
-
