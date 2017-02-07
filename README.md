@@ -10,7 +10,9 @@ Rules of bowling scoring are http://bowling.about.com/od/rulesofthegame/a/bowlin
 Designing a single game 
 
 Bowling-Scoring Basics 
+
 One game of bowling consists of 10 frames, with a minimum score of zero and a maximum of 300. Each frame consists of two chances to knock down ten pins.
+
 Input – series of 10 frames, each containing 2 throws (integers between 0 - 10), and 10th frame may contain 2 or 3 throws depending upon the outcome of first or second throw.
 Output - score for each frame.
 
