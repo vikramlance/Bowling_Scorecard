@@ -17,7 +17,7 @@ Output - score for each frame.
 The basic entities of the bowling score dashboard are as follows
 BolwingGame	-->	Frame	-->	Throw
 
-Bowling game have one to many relationship with frame (1 game  10 frames), also frame have one to (1 .. many) relationship with throws. One frame will have 1,2,3 throws depending upon various situations.
+Bowling game have one to many relationship with frame (1 game --> 10 frames), also frame have one to (1 .. many) relationship with throws. One frame will have 1,2,3 throws depending upon various situations.
 
 I choose python to develop the code as it give lot of flexibility in programming.
 Development is done according to test driven development (TDD) approach, where requirements are written as small test cases and code was developed according to test cases. Object oriented programming principles were followed to get modularized and maintainable code.
